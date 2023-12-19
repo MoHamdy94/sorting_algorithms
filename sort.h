@@ -33,8 +33,8 @@ void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
-int division_partition(int *array, int start, int end, size_t size)
-void quickSo(int *array, int start, int end, size_t size)
+int division_partition(int *array, int start, int end, size_t size);
+void quickSo(int *array, int start, int end, size_t size);
 void merge(size_t lo, size_t mi, size_t hi, int *dest, int *src);
 void merge_partition(size_t lo, size_t hi, int *array, int *base);
 void swap_root(int *array, size_t root, size_t hi, size_t size);
