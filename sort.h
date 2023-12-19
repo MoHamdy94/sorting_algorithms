@@ -20,23 +20,15 @@ typedef struct listint_s
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void swap_integer(int *x, int *y);
+void quickSo(int *array, int start, int end, size_t size);
+int division_partition(int *array, int start, int end, size_t size);
+
+
 
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
-void cocktail_sort_list(listint_t **list);
-void counting_sort(int *array, size_t size);
-void merge_sort(int *array, size_t size);
-void heap_sort(int *array, size_t size);
-void radix_sort(int *array, size_t size);
-void bitonic_sort(int *array, size_t size);
-void quick_sort_hoare(int *array, size_t size);
-int division_partition(int *array, int start, int end, size_t size);
-void quickSo(int *array, int start, int end, size_t size);
-void merge(size_t lo, size_t mi, size_t hi, int *dest, int *src);
-void merge_partition(size_t lo, size_t hi, int *array, int *base);
-void swap_root(int *array, size_t root, size_t hi, size_t size);
 
-#endif /* __SORT__ */
+#endif
